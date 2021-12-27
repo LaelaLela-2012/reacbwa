@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.Parentbox {
+  width: 80%;
+  overflow: hidden;
+  Margin: auto;
+  margin-top: 100px;
+}
+.Foto{
+  width: 50%;
+  height: auto;
+  background: white;
+  float: left;
+}
+.Foto img {
+width: 100%;
+height: 100%;
+}
+.Deskripsi {
+  width: 45%;
+  float: right;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.Deskripsi .Info {
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Deskripsi .Price {
+  font-size:20px;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Deskripsi .Title{
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Deskripsi .Cate{
+  color: rgb(85, 82, 82);
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.Deskripsi a{
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 500;
+  background: rgb(255, 159, 159);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: all 0.8s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Deskripsi a:hover {
+  color: #fff;
+  background: rgb(221, 135, 135);
+  transition: all 0.8s;
+}
+.Deskripsi ul li {
+  padding-bottom:10px;
+}
+.Review-box h2{
+  margin-top: 50px;
+}
+.Review-box img {
+  width: 75px;
+  height: 80px;
+  background:#b1b1b1;
+  border-radius: 11px;
+  float: left;
+  margin-right: 16px;
+}
+.Review-box .User h3{
+  padding-top: 10px;
+  margin-bottom: 8px;
+}
+.Review-box .User p, h3{
+  margin: 0;
+}.Review-box .Item {
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 24px;
 }
